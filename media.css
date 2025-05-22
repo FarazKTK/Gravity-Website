@@ -184,24 +184,6 @@
  .box-shadow-section .shadow-text h1{
   font-size: 24px !important;
  }
- .our-service-section .service-text span strong{
-  font-size: 15px !important;
- }
- .our-service-section .develop-text .main-service .main-service-item a span{
-  font-size: 25px !important;
- }
- .develop-text .main-service .main-service-item a::before{
-  display: none !important;
- }
- .develop-text .main-service .main-service-item-one span{
-  font-size: 24px !important;
- }
- .service-box{
-  padding:  20px 10px !important;
- }
- .service-box .service-box-menu li a{
-  font-size: 18px !important;
- }
  .navbar-brand img{
   width: 100px  !important;
   max-width: 100% !important;
@@ -289,6 +271,30 @@
    .footer-section .footer-list li a{
     font-size: 14px !important;
   }
+    .develop-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-service {
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-service-item {
+    text-align: center;
+    position: relative;
+  }
+
+  .ship-item {
+    display: inline-block;
+    padding-left: 0 !important;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
 }
 
 @media(width: 320px){
@@ -367,24 +373,6 @@
   .three-images-section .three-img-text h1{
     font-size: 16px !important;
   }
-  .our-service-section .service-text span strong{
-  font-size: 15px !important;
- }
- .our-service-section .develop-text .main-service .main-service-item a span{
-  font-size: 25px !important;
- }
- .develop-text .main-service .main-service-item a::before{
-  display: none !important;
- }
- .develop-text .main-service .main-service-item-one span{
-  font-size: 24px !important;
- }
- .service-box{
-  padding:  20px 15px !important;
- }
- .service-box .service-box-menu li a{
-  font-size: 16px !important;
- }
  .client-text span strong{
     font-size: 12px;
   }
@@ -485,6 +473,30 @@
   }
   .footer-section .footer-list li a{
     font-size: 14px !important;
+  }
+    .develop-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-service {
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-service-item {
+    text-align: center;
+    position: relative;
+  }
+
+  .ship-item {
+    display: inline-block;
+    padding-left: 0 !important;
+    text-align: center;
+    width: 100%;
+    position: relative;
   }
 }
 
@@ -2718,6 +2730,30 @@
 @media (max-width: 480px){
   .main-shadow-btn{
     display: none;
+  }
+    .develop-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-service {
+    align-items: center;
+    width: 100%;
+  }
+
+  .main-service-item {
+    text-align: center;
+    position: relative;
+  }
+
+  .ship-item {
+    display: inline-block;
+    padding-left: 0 !important;
+    text-align: center;
+    width: 100%;
+    position: relative;
   }
 }
 @media (max-width: 640px){
