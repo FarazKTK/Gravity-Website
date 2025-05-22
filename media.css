@@ -136,9 +136,9 @@
       width: 100% !important;
       height: auto !important;
   }
-  .dubai-img-box img{
+   .client-vedio .client-img #set{
     width: 100% !important;
-    height: auto !important;
+    height: 350px !important;
   }
   .dubai-img-text h1{
     font-size: 24px !important;
