@@ -2724,6 +2724,10 @@
   .main-shadow-btn{
     display: none;
   }
+    .our-blog .blog-btn{
+    padding: 10px !important;
+    font-size: 12px !important;
+  }
 }
 
 
