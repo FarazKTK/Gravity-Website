@@ -346,9 +346,9 @@
     padding: 10px 16px !important;
     font-size: 12px !important;
   }
-  .dubai-img-box img{
+  .client-vedio .client-img #set{
     width: 100% !important;
-    height: auto !important;
+    height: 350px !important;
   }
   .dubai-img-text h1{
     font-size: 24px !important;
@@ -2754,6 +2754,10 @@
     text-align: center;
     width: 100%;
     position: relative;
+  }
+    .client-vedio .client-img #set{
+    width: 100% !important;
+    height: 350px !important;
   }
 }
 @media (max-width: 640px){
