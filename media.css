@@ -136,9 +136,9 @@
       width: 100% !important;
       height: auto !important;
   }
-   .client-vedio .client-img #set{
+  .dubai-img-box img{
     width: 100% !important;
-    height: 350px !important;
+    height: auto !important;
   }
   .dubai-img-text h1{
     font-size: 24px !important;
@@ -168,9 +168,9 @@
   .client-vedio{
     margin-bottom: 10px;
   }
-  .client-vedio .client-img img{
+  .client-vedio .client-img #set{
     width: 100% !important;
-    height: auto !important;
+    height: 350px !important;
   }
   .faqs-section .faqs-text h1{
     font-size: 24px !important;
@@ -271,7 +271,8 @@
    .footer-section .footer-list li a{
     font-size: 14px !important;
   }
-    .develop-text {
+
+  .develop-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,6 +296,13 @@
     width: 100%;
     position: relative;
   }
+  .card-header h2 .btn{
+    font-size: 12px !important;
+  }
+  .card-body{
+    font-size: 12px !important;
+  }
+
 }
 
 @media(width: 320px){
@@ -346,9 +354,9 @@
     padding: 10px 16px !important;
     font-size: 12px !important;
   }
-  .client-vedio .client-img #set{
+  .dubai-img-box img{
     width: 100% !important;
-    height: 350px !important;
+    height: auto !important;
   }
   .dubai-img-text h1{
     font-size: 24px !important;
@@ -373,6 +381,24 @@
   .three-images-section .three-img-text h1{
     font-size: 16px !important;
   }
+  /* .our-service-section .service-text span strong{
+  font-size: 15px !important;
+ }
+ .our-service-section .develop-text .main-service .main-service-item a span{
+  font-size: 25px !important;
+ }
+ .develop-text .main-service .main-service-item a::before{
+  display: none !important;
+ }
+ .develop-text .main-service .main-service-item-one span{
+  font-size: 24px !important;
+ }
+ .service-box{
+  padding:  20px 15px !important;
+ }
+ .service-box .service-box-menu li a{
+  font-size: 16px !important;
+ } */
  .client-text span strong{
     font-size: 12px;
   }
@@ -428,12 +454,12 @@
   .blog-title a {
     font-size: 1.2em;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
    .faqs-section .faqs-text h1{
     font-size: 24px !important;
   }
@@ -474,7 +500,8 @@
   .footer-section .footer-list li a{
     font-size: 14px !important;
   }
-    .develop-text {
+
+  .develop-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,6 +525,14 @@
     width: 100%;
     position: relative;
   }
+   .card-header h2 .btn{
+    font-size: 12px !important;
+  }
+  .card-body{
+    font-size: 12px !important;
+  }
+
+
 }
 
 @media (max-width: 400px) {
@@ -658,12 +693,12 @@
   .faqs-section .faqs-text p{
     font-size: 14px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -695,6 +730,16 @@
    .footer-section .footer-list li a{
     font-size: 14px !important;
   }
+   .card-header h2 .btn{
+    font-size: 18px !important;
+  }
+   .card-header h2 .btn{
+    font-size: 12px !important;
+  }
+  .card-body{
+    font-size: 12px !important;
+  }
+
 }
 @media (width: 390px){
   .navbar-brand img{
@@ -1039,12 +1084,12 @@
   .faqs-section .faqs-text p{
     font-size: 16px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -1248,12 +1293,12 @@
   .faqs-section .faqs-text p{
     font-size: 17px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -1457,12 +1502,12 @@
   .faqs-section .faqs-text p{
     font-size: 17px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -1663,12 +1708,12 @@
   .faqs-section .faqs-text p{
     font-size: 17px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -1942,12 +1987,12 @@
   .faqs-section .faqs-text p{
     font-size: 18px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section .catch-success-text{
     padding-top: 80px !important;
   }
@@ -2177,12 +2222,12 @@
   .blog-title a {
     font-size: 1.2em;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -2372,12 +2417,12 @@
   .blog-title a {
     font-size: 1.2em;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section{
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -2614,12 +2659,12 @@
   .faqs-section .faqs-text p{
     font-size: 16px !important;
   }
-  .para-faqs{
+  /* .para-faqs{
     padding: 10px 16px !important;
   }
   .para-faqs h4{
     font-size: 16px !important;
-  }
+  } */
   .catch-success-section .catch-success-text{
     padding-top: 20px !important;
   }
@@ -2731,7 +2776,7 @@
   .main-shadow-btn{
     display: none;
   }
-    .develop-text {
+   .develop-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2755,20 +2800,30 @@
     width: 100%;
     position: relative;
   }
-    .client-vedio .client-img #set{
-    width: 100% !important;
-    height: 350px !important;
+   .card-header h2 .btn{
+    font-size: 12px !important;
   }
+  .card-body{
+    font-size: 12px !important;
+  }
+
 }
 @media (max-width: 640px){
   .main-shadow-btn{
     display: none;
   }
-    .our-blog .blog-btn{
+  .our-blog .blog-btn{
     padding: 10px !important;
     font-size: 12px !important;
   }
+  
 }
+
+
+
+
+
+
 
 
 
